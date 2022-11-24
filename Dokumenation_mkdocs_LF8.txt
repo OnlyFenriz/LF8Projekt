@@ -14,6 +14,8 @@ http://localhost/
 
 //Git Klonen
 git clone https://github.com/OnlyFenriz/LF8Projekt/
+
+//MKDOCS ausführen
 C:\Users\i21hentschelpa\AppData\Roaming\Python\Python310\Scripts\mkdocs.exe gh-deploy
 
 //LF8 Projekt reingehen
@@ -26,8 +28,8 @@ cd "mkdocs vorlage"
 git status
 git add *
 git commit -m "mkdoc added"
-git log
 git push
+git log
 
 //Seite öffnen
 https://OnlyFenriz.github.io/LF8Projekt/
