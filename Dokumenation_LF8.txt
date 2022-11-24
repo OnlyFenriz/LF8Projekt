@@ -30,4 +30,4 @@ git log
 git push
 
 //Seite öffnen
-https://github.com/OnlyFenriz/LF8Projekt/
+https://OnlyFenriz.github.io/LF8Projekt/
