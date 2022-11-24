@@ -2,13 +2,6 @@
 
 Dies ist eine Dokumentation.
 
-!!! quote "Ein Zitat"
-    Markdown ist sehr flexibel.
-
-## Die Basics...
-
-Der Text ist *kursiv*, dieser **fett**
-
 ## Phase 1: 
 
 Wir lesen den Arbeitsauftrag durch und machen uns ein erstes Bild über die Lage <br>
@@ -40,16 +33,15 @@ Dieses Projektwiki dient zur nutzerfreundlichen Nachvollziehbarkeit der abgearbe
 Teilaufgaben um das Primärziel zu erreichen. Zur Erstellung wurde auf 'mkdocs' zurückgegriffen. <br>
 Schrittweise wurde dieses Projektwiki ins Leben gerufen, anhand der offiziellen Leitfäden in <br>
 Verbindung mit dem angelegten Git-Repository. <br>
+Des weiteren haben wir eine kleine Dokumentation geschrieben, welche befehle für das erstellen <br> 
+und bearbeiten des Repository beinhaltet
 
-Eine Tabelle:
+## Phase 5:
 
-|Kopfzeile|Kopfzeile|
-|---|---|
-|Zelle|Zelle|
-
-[... im Internet](https://www.markdownguide.org/basic-syntax/)
-
----
+In dieser Phase haben wir uns Datenquellen und Dateiformate beschäftigt <br> 
+in folgender Datei haben wir uns über verschiedenen Dateiformaten informiert und <br>
+uns die geignetsten Formate für das Projekt rausgesucht. <br>
+https://github.com/OnlyFenriz/LF8Projekt/blob/main/Datentypen.docx
 
 Zum [Impressum](legal/imprint.md).
 ​
