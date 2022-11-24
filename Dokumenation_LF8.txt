@@ -1,0 +1,32 @@
+//Proxy Shit
+pip --proxy http://kjs-03.lan.dd-schulen.de:3128  install mkdocs mkdocs-material
+
+//CD Downloads 
+cd "Downloads\mkdocs vorlage"
+cd /d H:\mkdocs vorlage
+
+//MK DOCS einbinden
+C:\Users\i21hentschelpa\AppData\Roaming\Python\Python310\Scripts\mkdocs.exe serve
+
+//WEB Anwendung
+http://localhost/
+
+//Git Klonen
+git clone https://github.com/OnlyFenriz/LF8Projekt/
+C:\Users\i21hentschelpa\AppData\Roaming\Python\Python310\Scripts\mkdocs.exe gh-deploy
+
+//LF8 Projekt reingehen
+cd LF8Projekt
+
+//mkdocs reingehen
+cd "mkdocs vorlage"
+
+//FILE changes
+git status
+git add *
+git commit -m "mkdoc added"
+git log
+git push
+
+//Seite öffnen
+https://github.com/OnlyFenriz/LF8Projekt/
