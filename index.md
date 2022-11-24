@@ -34,15 +34,16 @@ Dieses Projektwiki dient zur nutzerfreundlichen Nachvollziehbarkeit der abgearbe
 Teilaufgaben um das Primärziel zu erreichen. Zur Erstellung wurde auf 'mkdocs' zurückgegriffen. <br>
 Schrittweise wurde dieses Projektwiki ins Leben gerufen, anhand der offiziellen Leitfäden in <br>
 Verbindung mit dem angelegten Git-Repository. <br>
-Des weiteren haben wir eine kleine Dokumentation geschrieben, welche befehle für das erstellen <br> 
+Desweiteren haben wir eine kleine Dokumentation geschrieben, welche befehle für das erstellen <br> 
 und bearbeiten des Repository beinhaltet. <br>
 https://github.com/OnlyFenriz/LF8Projekt/blob/main/Dokumenation_mkdocs_LF8.txt <br>
 
 ## Phase 5:
 
-In dieser Phase haben wir uns Datenquellen und Dateiformate beschäftigt. <br> 
-In folgender Datei haben wir uns über verschiedenen Dateiformaten informiert und <br>
-uns die geignetsten Formate für das Projekt rausgesucht. <br>
+In dieser Phase haben wir uns mit Datenquellen und Dateiformate beschäftigt. <br> 
+In folgender Datei haben wir die verschiedenen Dateiformaten genannt und erklärt. <br>
+Außerdem haben wir wir uns gedanken über die benötigten Datenquellen gemacht und überlegt, <br>
+welche der Dateiformate die besten für das Projekt sind. <br>
 https://github.com/OnlyFenriz/LF8Projekt/blob/main/Datentypen.docx <br>
 
 Zum [Impressum](legal/imprint.md).
