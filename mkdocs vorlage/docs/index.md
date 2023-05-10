@@ -46,6 +46,48 @@ Außerdem haben wir wir uns gedanken über die benötigten Datenquellen gemacht 
 welche der Dateiformate die besten für das Projekt sind. <br>
 https://github.com/OnlyFenriz/LF8Projekt/blob/main/Datentypen.docx <br>
 
+## Phase 6
+
+In Phase 6 haben wir uns mit der Benutzerverwaltung für die Datenbank beschäftigt. Dazu haben wir <br>
+uns noch einmal das Anwendungsfalldiagramm angeschaut um den Aktören die Rechte zuweisen zu können. <br>
+Zur Übersicht haben wir eine Tabelle erstellt mit den Datenquellen, Nutzern, Rechte und Schutzklassen <br>
+In dieser Tabelle haben wir den einzellen Nutzen die entsprechenden Berechtigungen zugewiiesen. <br>
+Um ein besseres Verständiss über den Datenfluss zu erhalten haben wir uns über die <br>
+Datenschnittstelle unserer Eigenen Software informiert <br>
+Weiterhin haben wir unsere erstellte Tabelle praktisch im DBMS umgesetzt. <br>
+https://github.com/OnlyFenriz/LF8Projekt/blob/main/Schritt%207%20LF8.docx <br>
+
+## Phase 7
+
+Weil Datenschutz jeden was angeht, haben wir uns mit Unterschiedlichen Technischen und <br>  
+Organisatorischen Maßnahmen beschäftigt und uns zu Datenschutz <br>
+und Datensicherheit informiert <br>
+Wir haben uns über verschiedene Maßnahmen informiert und aufgeschrieben wie <br>
+man diese umsetzten kann. <br>
+Für die Umsetztung der TOM's haben wir uns zu den Punkten Authentizität, <br>
+Integrität, Verfügbarkeit und Vertaulichkeit informiert und Umsetzungsvorschläge <br>
+aufgeschrieben. <br>
+https://github.com/OnlyFenriz/LF8Projekt/blob/main/Schritt%207%20LF8.docx <br>
+
+## Phase 8
+
+Um die Daten zu unserem Projekt logisch und sinnvoll zu speichern haben wir ein <br>
+Datenbestandkonzept erstellt. <br>
+Dazu haben wir ein ER Modell mit den Benutzen erstellt. <br>
+Im ERM haben wir alle Datenquellen, Schlüssel und Datentypen abgebildete. <br>
+Des Weiteren haben wir zwischen den einzelnen Tabellen Beziehungen <br>
+geschaffen und Hilftabellen angelegt. <br>
+https://github.com/OnlyFenriz/LF8Projekt/blob/main/ERM_Projekt.drawio.png <br>
+https://github.com/OnlyFenriz/LF8Projekt/blob/main/Phase%208.docx <br>
+
+## Phase 9
+
+Um das ERM aus Phase 8 praktisch umzusetzten haben wir den Microsoft SQL Server <br>
+Managment Studio verwendet. <br>
+Darin haben wir die geplanten Tabellen mit ihren Eigenschaften erstellt. <br>
+Danach haben wir die Beziehungen zwischen den Tabellen erstellt und haben diese <br>
+mit sinnvollen Beipieldaten befüllt. <br>
+
 ---
 
 Zum [Impressum](legal/imprint.md).
