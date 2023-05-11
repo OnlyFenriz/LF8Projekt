@@ -10,8 +10,12 @@
         <meta name="author" content="bszetdd it-systems">
       
       
+      
+      
+        <link rel="next" href="user-guide/getting-started/">
+      
       <link rel="icon" href="favicon.png">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.11">
     
     
       
@@ -19,11 +23,7 @@
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.472b142f.min.css">
-      
-        
-        <link rel="stylesheet" href="assets/stylesheets/palette.08040f6c.min.css">
-        
+      <link rel="stylesheet" href="assets/stylesheets/main.85bb2934.min.css">
       
       
 
@@ -45,14 +45,11 @@
   </head>
   
   
-    
-    
-    
-    
-    
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="None" data-md-color-accent="None">
+    <body dir="ltr">
   
     
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -72,7 +69,9 @@
     
       
 
-<header class="md-header" data-md-component="header">
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
     <a href="." title="MkDocs Einführung" class="md-header__button md-logo" aria-label="MkDocs Einführung" data-md-component="logo">
       
@@ -127,7 +126,7 @@
           <div class="md-search-result__meta">
             Suche wird initialisiert
           </div>
-          <ol class="md-search-result__list"></ol>
+          <ol class="md-search-result__list" role="presentation"></ol>
         </div>
       </div>
     </div>
@@ -180,7 +179,7 @@
   
     <li class="md-nav__item md-nav__item--active">
       
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
         
@@ -241,6 +240,34 @@
         <li class="md-nav__item">
   <a href="#phase-5" class="md-nav__link">
     Phase 5:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#phase-6" class="md-nav__link">
+    Phase 6
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#phase-7" class="md-nav__link">
+    Phase 7
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#phase-8" class="md-nav__link">
+    Phase 8
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#phase-9" class="md-nav__link">
+    Phase 9
   </a>
   
 </li>
@@ -344,6 +371,34 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#phase-6" class="md-nav__link">
+    Phase 6
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#phase-7" class="md-nav__link">
+    Phase 7
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#phase-8" class="md-nav__link">
+    Phase 8
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#phase-9" class="md-nav__link">
+    Phase 9
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -385,14 +440,49 @@ strukturierten Überblick, welcher das Problem des Auftrages veranschaulicht. <b
 Teilaufgaben um das Primärziel zu erreichen. Zur Erstellung wurde auf 'mkdocs' zurückgegriffen. <br>
 Schrittweise wurde dieses Projektwiki ins Leben gerufen, anhand der offiziellen Leitfäden in <br>
 Verbindung mit dem angelegten Git-Repository. <br>
-Des weiteren haben wir eine kleine Dokumentation geschrieben, welche befehle für das erstellen <br> 
+Desweiteren haben wir eine kleine Dokumentation geschrieben, welche befehle für das erstellen <br> 
 und bearbeiten des Repository beinhaltet. <br>
 https://github.com/OnlyFenriz/LF8Projekt/blob/main/Dokumenation_mkdocs_LF8.txt <br></p>
 <h2 id="phase-5">Phase 5:</h2>
-<p>In dieser Phase haben wir uns Datenquellen und Dateiformate beschäftigt. <br> 
-In folgender Datei haben wir uns über verschiedenen Dateiformaten informiert und <br>
-uns die geignetsten Formate für das Projekt rausgesucht. <br>
+<p>In dieser Phase haben wir uns mit Datenquellen und Dateiformate beschäftigt. <br> 
+In folgender Datei haben wir die verschiedenen Dateiformaten genannt und erklärt. <br>
+Außerdem haben wir wir uns gedanken über die benötigten Datenquellen gemacht und überlegt, <br>
+welche der Dateiformate die besten für das Projekt sind. <br>
 https://github.com/OnlyFenriz/LF8Projekt/blob/main/Datentypen.docx <br></p>
+<h2 id="phase-6">Phase 6</h2>
+<p>In Phase 6 haben wir uns mit der Benutzerverwaltung für die Datenbank beschäftigt. Dazu haben wir <br>
+uns noch einmal das Anwendungsfalldiagramm angeschaut um den Aktören die Rechte zuweisen zu können. <br>
+Zur Übersicht haben wir eine Tabelle erstellt mit den Datenquellen, Nutzern, Rechte und Schutzklassen <br>
+In dieser Tabelle haben wir den einzellen Nutzen die entsprechenden Berechtigungen zugewiiesen. <br>
+Um ein besseres Verständiss über den Datenfluss zu erhalten haben wir uns über die <br>
+Datenschnittstelle unserer Eigenen Software informiert <br>
+Weiterhin haben wir unsere erstellte Tabelle praktisch im DBMS umgesetzt. <br>
+https://github.com/OnlyFenriz/LF8Projekt/blob/main/Schritt%207%20LF8.docx <br></p>
+<h2 id="phase-7">Phase 7</h2>
+<p>Weil Datenschutz jeden was angeht, haben wir uns mit Unterschiedlichen Technischen und <br><br />
+Organisatorischen Maßnahmen beschäftigt und uns zu Datenschutz <br>
+und Datensicherheit informiert <br>
+Wir haben uns über verschiedene Maßnahmen informiert und aufgeschrieben wie <br>
+man diese umsetzten kann. <br>
+Für die Umsetztung der TOM's haben wir uns zu den Punkten Authentizität, <br>
+Integrität, Verfügbarkeit und Vertaulichkeit informiert und Umsetzungsvorschläge <br>
+aufgeschrieben. <br>
+https://github.com/OnlyFenriz/LF8Projekt/blob/main/Schritt%207%20LF8.docx <br></p>
+<h2 id="phase-8">Phase 8</h2>
+<p>Um die Daten zu unserem Projekt logisch und sinnvoll zu speichern haben wir ein <br>
+Datenbestandkonzept erstellt. <br>
+Dazu haben wir ein ER Modell mit den Benutzen erstellt. <br>
+Im ERM haben wir alle Datenquellen, Schlüssel und Datentypen abgebildete. <br>
+Des Weiteren haben wir zwischen den einzelnen Tabellen Beziehungen <br>
+geschaffen und Hilftabellen angelegt. <br>
+https://github.com/OnlyFenriz/LF8Projekt/blob/main/ERM_Projekt.drawio.png <br>
+https://github.com/OnlyFenriz/LF8Projekt/blob/main/Phase%208.docx <br></p>
+<h2 id="phase-9">Phase 9</h2>
+<p>Um das ERM aus Phase 8 praktisch umzusetzten haben wir den Microsoft SQL Server <br>
+Managment Studio verwendet. <br>
+Darin haben wir die geplanten Tabellen mit ihren Eigenschaften erstellt. <br>
+Danach haben wir die Beziehungen zwischen den Tabellen erstellt und haben diese <br>
+mit sinnvollen Beipieldaten befüllt. <br></p>
 <hr />
 <p>Zum <a href="legal/imprint/">Impressum</a>.
 ​</p>
@@ -411,27 +501,6 @@ https://github.com/OnlyFenriz/LF8Projekt/blob/main/Datentypen.docx <br></p>
       </main>
       
         <footer class="md-footer">
-  
-    
-    <nav class="md-footer__inner md-grid" aria-label="Fußzeile" >
-      
-      
-        
-        <a href="user-guide/getting-started/" class="md-footer__link md-footer__link--next" aria-label="Weiter: Getting Started" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Weiter
-              </span>
-              Getting Started
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -454,10 +523,10 @@ https://github.com/OnlyFenriz/LF8Projekt/blob/main/Datentypen.docx <br></p>
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.config.lang": "de", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Suche", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version.title": "Version ausw\u00e4hlen"}}</script>
+    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}}</script>
     
     
-      <script src="assets/javascripts/bundle.d6c3db9e.min.js"></script>
+      <script src="assets/javascripts/bundle.fac441b0.min.js"></script>
       
     
   </body>
